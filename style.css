@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+/* <!-- Hero Section --> */
+.hero {
+  height: 90vh;
+  position: relative;
+}
+.hero video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.hero > div {
+  position: absolute;
+  top: 20vh;
+  left: 10vh;
+  background: rgba(128, 128, 128, 0.457);
+  width: 450px;
+  padding: 1rem;
+  border-radius: 10px;
+  color: wheat;
+  backdrop-filter: blur(5px);
+}
+.hero > span {
+  position: absolute;
+  font-size: 5rem;
+  color: orangered;
+  bottom: 90px;
+  left: 50%;
+  transform: rotate(90deg);
+
+  animation: godown 1s infinite;
+}
+@keyframes godown {
+  0% {
+    bottom: 10px;
+    left: 50%;
+  }
+}
+/* <!-- Navbar section  --> */
+
+/* <!-- paragraph --> */
+
+/* <!-- Image --> */
+
+/* <!-- Footer Section  --> */
